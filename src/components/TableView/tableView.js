@@ -1,5 +1,5 @@
 import React from "react";
-import {Space, Table} from 'antd'
+import {Table} from 'antd'
 
 function TableView(props){
     return(

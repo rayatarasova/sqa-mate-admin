@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Layout, Space, Table, Tag, Pagination} from 'antd'
+import {Layout, Space} from 'antd'
 import TableView from "./components/TableView/tableView";
 
 const {Header, Content, Footer} = Layout;
 
 function App() {
 
-    const inputDataMock= [
+    const inputDataMock = [
         {
             name: "Artem",
             age: "30",
@@ -61,12 +61,12 @@ function App() {
     const columnsFromInput = [];
     const dataFromInput = [];
 
-    function splitColumnsAndData(input){
+    function splitColumnsAndData(input) {
         let keys = Object.keys(input[0]);
         keys.forEach(item => (
             columnsFromInput.push(
                 {
-                    title:  item,
+                    title: item,
                     dataIndex: item,
                     key: item
                 }
@@ -74,9 +74,9 @@ function App() {
         ));
         input.map((item, index) => {
             item.key = index;
-                dataFromInput.push(
-                   item
-                )
+            return dataFromInput.push(
+                item
+            )
         })
     }
 
@@ -186,7 +186,7 @@ function App() {
     return (
         <Layout>
             <Header style={{backgroundColor: "#2199e8"}}>
-                    <h1 style={{color: "white"}}>SQA Mate Admin pannel</h1>
+                <h1 style={{color: "white"}}>SQA Mate Admin pannel</h1>
             </Header>
             <Content className="content">
                 <h2>Users</h2>
