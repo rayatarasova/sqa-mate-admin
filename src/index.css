@@ -23,3 +23,8 @@ code {
   width: 900px;
   margin-top: 20px;
 }
+
+.table-custom {
+  width: 900px;
+  height: 300px
+}

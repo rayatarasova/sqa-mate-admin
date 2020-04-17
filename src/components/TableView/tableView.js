@@ -3,7 +3,7 @@ import {Table} from 'antd'
 
 function TableView(props){
     return(
-        <Table style={{width:900, height: 300}}
+        <Table className="table-custom"
                size="middle"
                pagination={{pageSize: 5}}
                columns={props.columns}
