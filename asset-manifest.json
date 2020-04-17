@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sqa-mate-admin/static/css/main.56657f27.chunk.css",
+    "main.js": "/sqa-mate-admin/static/js/main.82e0d0a7.chunk.js",
+    "main.js.map": "/sqa-mate-admin/static/js/main.82e0d0a7.chunk.js.map",
+    "runtime-main.js": "/sqa-mate-admin/static/js/runtime-main.8151c172.js",
+    "runtime-main.js.map": "/sqa-mate-admin/static/js/runtime-main.8151c172.js.map",
+    "static/css/2.a43b59a1.chunk.css": "/sqa-mate-admin/static/css/2.a43b59a1.chunk.css",
+    "static/js/2.0ec94eb1.chunk.js": "/sqa-mate-admin/static/js/2.0ec94eb1.chunk.js",
+    "static/js/2.0ec94eb1.chunk.js.map": "/sqa-mate-admin/static/js/2.0ec94eb1.chunk.js.map",
+    "index.html": "/sqa-mate-admin/index.html",
+    "precache-manifest.e58480329124c73a9fc0a69dfca059d2.js": "/sqa-mate-admin/precache-manifest.e58480329124c73a9fc0a69dfca059d2.js",
+    "service-worker.js": "/sqa-mate-admin/service-worker.js",
+    "static/css/2.a43b59a1.chunk.css.map": "/sqa-mate-admin/static/css/2.a43b59a1.chunk.css.map",
+    "static/css/main.56657f27.chunk.css.map": "/sqa-mate-admin/static/css/main.56657f27.chunk.css.map",
+    "static/js/2.0ec94eb1.chunk.js.LICENSE.txt": "/sqa-mate-admin/static/js/2.0ec94eb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8151c172.js",
+    "static/css/2.a43b59a1.chunk.css",
+    "static/js/2.0ec94eb1.chunk.js",
+    "static/css/main.56657f27.chunk.css",
+    "static/js/main.82e0d0a7.chunk.js"
+  ]
+}
